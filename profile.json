@@ -24,9 +24,12 @@
           "version": "2026-08-25",
           "spec": "https://ucp.dev/2026-08-25/specification/shopping/extensions/fulfillment/",
           "schema": "https://ucp.dev/2026-08-25/schemas/shopping/fulfillment.json",
-          "extends": ["dev.ucp.shopping.cart"]
+          "extends": [
+            "dev.ucp.shopping.cart"
+          ]
         }
       ]
-    }
+    },
+    "payment_handlers": {}
   }
 }
