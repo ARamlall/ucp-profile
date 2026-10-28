@@ -19,13 +19,28 @@
           "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
         }
       ],
+      "dev.ucp.shopping.checkout": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/checkout/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/checkout.json"
+        }
+      ],
+      "dev.ucp.shopping.order": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/order/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/order.json"
+        }
+      ],
       "dev.ucp.shopping.fulfillment": [
         {
           "version": "2026-08-25",
           "spec": "https://ucp.dev/2026-08-25/specification/shopping/extensions/fulfillment/",
           "schema": "https://ucp.dev/2026-08-25/schemas/shopping/fulfillment.json",
           "extends": [
-            "dev.ucp.shopping.cart"
+            "dev.ucp.shopping.cart",
+            "dev.ucp.shopping.checkout"
           ]
         }
       ]
