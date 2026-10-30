@@ -30,7 +30,10 @@
         {
           "version": "2026-08-25",
           "spec": "https://ucp.dev/2026-08-25/specification/shopping/order/",
-          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/order.json"
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/order.json",
+          "config": {
+            "webhook_url": "https://go.alexram.me/ucp/orders"
+          }
         }
       ],
       "dev.ucp.shopping.fulfillment": [
